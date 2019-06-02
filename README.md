@@ -13,6 +13,7 @@ Réalisé dans le cadre du programme IDP soutenu par l'Afpa et Aston. Le CV sera
 ## Librairies actuellement utilisées
 
 * https://icones8.fr/icon/pack/logos/doodle
+* https://github.com/daneden/animate.css
 
 ## Aperçu du résultat
 
