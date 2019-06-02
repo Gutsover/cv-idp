@@ -45,7 +45,7 @@ body main h1 {
   height: 150px;
   width: 50%;
   color: #D8CBB3;
-  margin-top: 5%;
+  margin-top: 5% !important;
   bottom: 0;
   left: 0;
   right: 0;
@@ -231,6 +231,7 @@ body main .formulaire form {
   background: -webkit-linear-gradient(to right, rgba(114, 111, 60, 0.2), #d8cbb3);
   background: linear-gradient(to right, rgba(114, 111, 60, 0.2), #d8cbb3);
   border-radius: 10%;
+  border: 2px solid black;
 }
 @media (max-width: 900px) {
   body main .formulaire form {
