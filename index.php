@@ -17,7 +17,7 @@
 <!-- Tout le contenu de ma page dans le main -->
     <header class="bloc">
 
-      
+
       <h1 class='console-container'>
         <span id='text'></span>
         <div class='console-underscore' id='console'>&#95;</div>
@@ -256,6 +256,6 @@
 
   </main>
 
-  <script src="javascript/script.js" async defer></script>
+  <script src="javascript/h1.js" async defer></script>
 </body>
 </html>
