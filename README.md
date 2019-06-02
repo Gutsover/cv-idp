@@ -8,6 +8,7 @@ Réalisé dans le cadre du programme IDP soutenu par l'Afpa et Aston. Le CV sera
 
 * HTML
 * SASS
+* JavaScript
 * PHP - PDO
 
 ## Librairies actuellement utilisées
