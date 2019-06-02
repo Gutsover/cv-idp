@@ -19,3 +19,5 @@ echo "Votre message a bien était envoyé!";
 //$reponse->closeCursor(); //Ferme la connexion SQL
 
 ?>
+<p>Retournez sur  <a href="index.php">le CV de Mylène</a></p>
+
