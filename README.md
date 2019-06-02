@@ -16,10 +16,13 @@ Réalisé dans le cadre du programme IDP soutenu par l'Afpa et Aston. Le CV sera
 
 ## Aperçu du résultat
 
+Un header classique animé avec JS et css
 ![En-tête](images/h1.png "En-tête")
 
+Un formulaire de contact fonctionnel
 ![Formulaire-de-contact](images/formulaire_contact.png "Formulaire de contact fonctionnel")
 
+Un footer "old-school"
 ![Footer](images/footer.png "Footer")
 
 ## A venir ...
