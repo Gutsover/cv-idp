@@ -50,23 +50,62 @@ body
             width: 100%
         // Fin propriété du main
 
+
+
         h1
             font-family: "Lunchbox"
-            //font-weight: 100
-            font-size: 6em
+            font-size: 5em
             text-align: center
-            letter-spacing: 0.1em
-            -webkit-animation: focus 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
-            animation: focus 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
-            background: -webkit-linear-gradient($cream, $green-one, $marron)
-            -webkit-background-clip: text
-            -webkit-text-fill-color: transparent
+            height: 150px
+            width: 50%
+            color: #D8CBB3
+            margin-top: 5%
+            bottom: 0
+            left: 0
+            right: 0
+            margin: auto
+
+            // Ancien CSS avant JS
+
+            // font-family: "Lunchbox"
+            // //font-weight: 100
+            // font-size: 6em
+            // text-align: center
+            // letter-spacing: 0.1em
+            // -webkit-animation: focus 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+            // animation: focus 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+            // background: -webkit-linear-gradient($cream, $green-one, $marron)
+            // -webkit-background-clip: text
+            // -webkit-text-fill-color: transparent
+
+            .hidden
+                opacity: 0
+
+            .console-underscore
+                display: inline-block
+                position: relative
+                top: -0.14em
+                left: 10px
+
 
             // adaptation tablet and phone
             @media (max-width: 900px)
-                font-size: 4em
+                font-size: 2.5em
 
-            // Animation du H1 & H2 du header
+        h2
+            font-weight: 100
+            font-size: 2.5em
+            color: $black-red
+            text-align: center
+            letter-spacing: 0.1em
+            margin-top: 60px
+            -webkit-animation: focus 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+            animation: focus 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+            // adaptation tablet and phone
+            @media (max-width: 900px)
+                font-size: 2em
+
+            // Animation du H2 du header
             @-webkit-keyframes focus
                 0%
                     letter-spacing: 1em
@@ -90,19 +129,6 @@ body
                     -webkit-filter: blur(0px)
                             filter: blur(0px)
                     opacity: 1
-
-        h2
-            font-weight: 100
-            font-size: 2.5em
-            color: $black-red
-            text-align: center
-            letter-spacing: 0.1em
-            margin-top: 60px
-            -webkit-animation: focus 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
-            animation: focus 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
-            // adaptation tablet and phone
-            @media (max-width: 900px)
-                font-size: 2em
 
         .littleLine
             height: 1px

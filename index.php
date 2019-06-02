@@ -16,7 +16,14 @@
   <main>
 <!-- Tout le contenu de ma page dans le main -->
     <header class="bloc">
-      <h1 class="tracking-in-expand"> < Mylène Vandaële /></h1>
+
+      
+      <h1 class='console-container'>
+        <span id='text'></span>
+        <div class='console-underscore' id='console'>&#95;</div>
+      </h1>
+
+
       <div class="littleLine"></div>
       <h2>Développeuse Full-Stack</h2>
     </header>
@@ -248,5 +255,7 @@
     </footer>
 
   </main>
+
+  <script src="javascript/script.js" async defer></script>
 </body>
 </html>
