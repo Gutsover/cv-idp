@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300&display=swap");
 @font-face {
-  font-family: "Lunchbox";
-  src: url(../font/Lunchbox/Lunchbox_Slab_Bold.ttf);
+  font-family: "caviar";
+  src: url(../font/CaviarDreams.ttf);
 }
 body {
   display: flex;
@@ -39,8 +39,9 @@ body main {
   }
 }
 body main h1 {
-  font-family: "Lunchbox";
-  font-size: 5em;
+  font-family: "caviar";
+  font-weight: 50;
+  font-size: 4em;
   text-align: center;
   height: 150px;
   width: 50%;
@@ -66,44 +67,17 @@ body main h1 .console-underscore {
   }
 }
 body main h2 {
+  font-family: "caviar";
   font-weight: 100;
   font-size: 2.5em;
   color: #26101E;
   text-align: center;
   letter-spacing: 0.1em;
   margin-top: 60px;
-  -webkit-animation: focus 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: focus 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 @media (max-width: 900px) {
   body main h2 {
     font-size: 2em;
-  }
-}
-@-webkit-keyframes focus {
-  0% {
-    letter-spacing: 1em;
-    -webkit-filter: blur(12px);
-    -webkit-filter-filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-filter: blur(0px);
-    -webkit-filter-filter: blur(0px);
-    opacity: 1;
-  }
-}
-@keyframes focus {
-  0% {
-    letter-spacing: 1em;
-    -webkit-filter: blur(12px);
-    -webkit-filter-filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-filter: blur(0px);
-    -webkit-filter-filter: blur(0px);
-    opacity: 1;
   }
 }
 body main .littleLine {
@@ -124,6 +98,7 @@ body main section {
   }
 }
 body main section h3 {
+  font-family: "caviar";
   font-variant: small-caps;
   font-size: 2.2em;
   letter-spacing: 0.2em;
@@ -131,6 +106,7 @@ body main section h3 {
   color: #A57B48;
 }
 body main section h4 {
+  font-family: "caviar";
   font-variant: small-caps;
   font-size: 1.7em;
   text-align: center;
@@ -240,7 +216,7 @@ body main .formulaire form {
 }
 body main .formulaire form label {
   font-size: 1.3em;
-  font-family: "Lunchbox";
+  font-family: "caviar";
 }
 body main .formulaire form .input_bg {
   cursor: text;
@@ -311,8 +287,8 @@ body main .formulaire form .button_bg:hover {
   transform: scale(1.1);
 }
 body main .formulaire form #valider {
-  font-family: "Lunchbox";
-  font-size: 1.5em;
+  font-family: "caviar";
+  font-size: 1.3em;
   height: 150px;
   width: 150px;
   border: none;
@@ -334,11 +310,11 @@ body main footer {
   body main footer {
     flex-wrap: wrap;
     height: 360px;
-    font-size: 1.4em;
+    font-size: 1em;
   }
 }
 body main footer span {
-  font-family: "Lunchbox";
+  font-family: "caviar";
   font-size: 1.4em;
   margin-left: 15px;
 }
@@ -348,7 +324,7 @@ body main footer span {
   }
 }
 body main footer a {
-  font-family: "Lunchbox";
+  font-family: "caviar";
   text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
   font-size: 1.4em;

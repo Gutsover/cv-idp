@@ -1,8 +1,8 @@
 // Importation de la font téléchargée
 @import url('https://fonts.googleapis.com/css?family=Lato:300&display=swap')
 @font-face
-    font-family: "Lunchbox"
-    src: url(../font/Lunchbox/Lunchbox_Slab_Bold.ttf)
+    font-family: "caviar"
+    src: url(../font/CaviarDreams.ttf)
 
 //Déclaration de mes variables colors
 $green-one: #726F3C
@@ -53,8 +53,9 @@ body
 
 
         h1
-            font-family: "Lunchbox"
-            font-size: 5em
+            font-family: "caviar"
+            font-weight: 50
+            font-size: 4em
             text-align: center
             height: 150px
             width: 50%
@@ -67,8 +68,8 @@ body
 
             // Ancien CSS avant JS
 
-            // font-family: "Lunchbox"
-            // //font-weight: 100
+            // font-family: "caviar"
+            // font-weight: 100
             // font-size: 6em
             // text-align: center
             // letter-spacing: 0.1em
@@ -93,42 +94,17 @@ body
                 font-size: 2.5em
 
         h2
+            font-family: "caviar"
             font-weight: 100
             font-size: 2.5em
             color: $black-red
             text-align: center
             letter-spacing: 0.1em
             margin-top: 60px
-            -webkit-animation: focus 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
-            animation: focus 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+
             // adaptation tablet and phone
             @media (max-width: 900px)
                 font-size: 2em
-
-            // Animation du H2 du header
-            @-webkit-keyframes focus
-                0%
-                    letter-spacing: 1em
-                    -webkit-filter: blur(12px)
-                            filter: blur(12px)
-                    opacity: 0
-
-                100%
-                    -webkit-filter: blur(0px)
-                            filter: blur(0px)
-                    opacity: 1
-
-            @keyframes focus
-                0%
-                    letter-spacing: 1em
-                    -webkit-filter: blur(12px)
-                            filter: blur(12px)
-                    opacity: 0
-
-                100%
-                    -webkit-filter: blur(0px)
-                            filter: blur(0px)
-                    opacity: 1
 
         .littleLine
             height: 1px
@@ -146,6 +122,7 @@ body
                 flex-wrap: wrap
 
             h3
+                font-family: "caviar"
                 font-variant: small-caps
                 font-size: 2.2em
                 letter-spacing: 0.2em
@@ -153,6 +130,7 @@ body
                 color: $marron
 
             h4
+                font-family: "caviar"
                 font-variant: small-caps
                 font-size: 1.7em
                 text-align: center
@@ -257,7 +235,7 @@ body
 
                 label
                     font-size: 1.3em
-                    font-family: "Lunchbox"
+                    font-family: "caviar"
                 .input_bg
                     cursor: text
                     width: 435px
@@ -322,8 +300,8 @@ body
                     transform: scale(1.1)
 
                 #valider
-                    font-family: "Lunchbox"
-                    font-size: 1.5em
+                    font-family: "caviar"
+                    font-size: 1.3em
                     height: 150px
                     width: 150px
                     border: none
@@ -345,10 +323,10 @@ body
             @media (max-width: 900px)
                 flex-wrap: wrap
                 height: 360px
-                font-size: 1.4em
+                font-size: 1em
 
             span
-                font-family: "Lunchbox"
+                font-family: "caviar"
                 font-size: 1.4em
                 margin-left: 15px
                 // adaptation tablet and phone
@@ -356,7 +334,7 @@ body
                     font-size: 1.1em
 
             a
-                font-family: "Lunchbox"
+                font-family: "caviar"
                 text-decoration: none
                 color: rgba(0, 0, 0, 0.5)
                 font-size: 1.4em

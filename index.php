@@ -7,7 +7,7 @@
   <title>Mylène Vandaële</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
     crossorigin="anonymous">
   <link rel="stylesheet" href="CSS/styles.css">
@@ -25,7 +25,7 @@
 
 
       <div class="littleLine"></div>
-      <h2>Développeuse Full-Stack</h2>
+      <h2 class="animated infinite pulse delay-1s">Développeuse Full-Stack</h2>
     </header>
 
     <section>
@@ -186,9 +186,9 @@
     </section>
 
     <div class="formulaire">
-      <h2>Prenez contact</h2>
+      <h2 class="animated infinite pulse delay-2s">Prenez contact</h2>
       <form action="traitement.php" method="POST">
-        <label for="surname">Votre prenom</label><br>
+        <label for="surname">Votre prénom</label><br>
         <span class="input_bg">
           <input type="text" name=prenom required>
         </span>
