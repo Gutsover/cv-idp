@@ -44,7 +44,7 @@ body main h1 {
   font-size: 4em;
   text-align: center;
   height: 150px;
-  width: 50%;
+  width: 90%;
   color: #D8CBB3;
   margin-top: 5% !important;
   bottom: 0;
@@ -63,7 +63,7 @@ body main h1 .console-underscore {
 }
 @media (max-width: 900px) {
   body main h1 {
-    font-size: 2.5em;
+    font-size: 2.4em;
   }
 }
 body main h2 {
