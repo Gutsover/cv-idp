@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Mylène Vandaële</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
     crossorigin="anonymous">
@@ -16,23 +15,73 @@
   <main>
 <!-- Tout le contenu de ma page dans le main -->
     <header class="bloc">
-
-
       <h1 class='console-container'>
         <span id='text'></span>
         <div class='console-underscore' id='console'>&#95;</div>
       </h1>
 
-
       <div class="littleLine"></div>
-      <h2 class="animated infinite pulse delay-1s">Développeuse Full-Stack</h2>
-    </header>
 
+      <h2 class="animated pulse fast">Développeuse Full-Stack</h2>
+    </header>
+<!-- FIN DU HEADER -->
+
+<!-- UNE SEULE SECTION CONTENANT 2 ARTICLES: column1 & column2 -->
     <section>
-      <article class="column1">
+
+      <h3>profil</h3>
+      <article class="parcours">
+
+        <div class="profil">
+          <p>Autodidacte autant que je le peux, curieuse et passionnée, j'ai travaillé une dizaine d'année dans le commerce avant de sauter le pas
+            de la reconvertion. J'ai à ce jour le désir de m'épanouïr dans une équipe studieuse, dynamique, complice et aussi
+            désireuse que moi d'en apprendre toujours plus! <br>
+            <span class="citation">"Choisissez un travail que vous aimez et vous n'aurez pas à travailler un seul jour de votre vie." -Confucius</span>
+          </p>
+        </div>
+
+        <div class="xp">
+          <h4>expériences</h4>
+          <ul>
+            <li>
+              <span>Développeur &  Intégrateur Web à WEB FORCE 3 -  Lille :</span>
+              <ul>
+                <li> Réalisation d’une application  présentant le rapport  d’activité 2018 de notre  commanditaire
+                  <strong>​(Pôle Santé Travail)</strong>
+                  ​ grâce à React / Next et Firebase, le but étant de condenser un fichier PDF d’une centaine de pages et de rendre attractif
+                  l'affichage de nombreuses données non-structurées sous forme de composants. Langages vus pendant cette formation: PHP, SQL, Synfony </li>
+              </ul>
+            </li>
+
+            <li>
+              <span>Auparavant :</span>
+              <ul>
+                <li>Assistante Direction Commerciale chez Mars Drinks - Paris, 2016  </li>
+                <li>Assistante commerciale chez Leads Machine - Lille, 2013 à 2016</li>
+                <li>Responsable restauration à AS Hotel - Lille, 2012</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="school">
+          <h4>formations</h4>
+          <ul>
+            <li>Formation Développeur Fullstack à Afpa puis Aston - Lille, mai 2019 à septembre 2019</li>
+            <li>Formation Développeur &  Intégrateur Web à WEB FORCE 3 - Lille, 2018</li>
+            <li>B-Tech, Euratechnologies - Lille, 2017</li>
+            <li>BTS Management des Unités Commerciales - Lille, 2010</li>
+            <li>BAC Littéraire - Armentière, 2007</li>
+          </ul>
+        </div>
+
+      </article>
+
+      <h3>compétences</h3>
+      <article class="competences">
 
         <div class="skills">
-          <h3>compétences</h3>
+
           <h4>front-end & back-end</h4>
           <ul>
             <li>
@@ -121,70 +170,31 @@
               </div>
             </li>
           </ul>
+        </div>
 
+        <div class="divers">
           <h4>divers</h4>
           <ul>
             <li>GIT</li>
             <li>Gulp</li>
+            <li>Structure MVC</li>
             <li>Agile / Scrum</li>
             <li>Windows</li>
             <li>Analyser les besoins du client</li>
             <li>Etude & Analyse d’un marché,  identifier les opportunités</li>
             <li>Respect d’un cahier des charges et  des délais</li>
           </ul>
-
         </div>
 
       </article>
+      <!-- FIN ARTICLE 1 -->
 
-      <article class="column2">
-        <div class="profil">
-          <h3>profil</h3>
-          <p>Autodidacte autant que je le peux, curieuse et passionnée, j'ai travaillé une dizaine d'année dans le commerce avant de sauter le pas
-            de la reconvertion. J'ai à ce jour le désir de m'épanouïr dans une équipe studieuse, dynamique, complice et aussi
-            désireuse que moi d'en apprendre toujours plus! <br>
-            <span class="citation">"Choisissez un travail que vous aimez et vous n'aurez pas à travailler un seul jour de votre vie." -Confucius</span>
-          </p>
-        </div>
+      <!-- DEBUT ARTICLE 2 -->
 
-        <div class="xp">
-          <h3>expériences</h3>
-          <ul>
-            <li>
-              <span>Développeur &  Intégrateur Web à WEB FORCE 3 -  Lille :</span>
-              <ul>
-                <li> Réalisation d’une application  présentant le rapport  d’activité 2018 de notre  commanditaire
-                  <strong>​(Pôle Santé Travail)</strong>
-                  ​ grâce à React / Next et Firebase, le but étant de condenser un fichier PDF d’une centaine de pages et de rendre attractif
-                  l'affichage de nombreuses données non-structurées sous forme de composants. Langages vus pendant cette formation: PHP, SQL, Synfony </li>
-              </ul>
-            </li>
-
-            <li>
-              <span>Auparavant :</span>
-              <ul>
-                <li>Assistante Direction Commerciale chez Mars Drinks - Paris, 2016  </li>
-                <li>Assistante commerciale chez Leads Machine - Lille, 2013 à 2016</li>
-                <li>Responsable restauration à AS Hotel - Lille, 2012</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-
-        <div class="school">
-          <h3>formations</h3>
-          <ul>
-            <li>Formation Développeur Fullstack à Afpa puis Aston - Lille, mai 2019 à septembre 2019</li>
-            <li>Formation Développeur &  Intégrateur Web à WEB FORCE 3 - Lille, 2018</li>
-            <li>B-Tech, Euratechnologies - Lille, 2017</li>
-            <li>BTS Management des Unités Commerciales - Lille, 2010</li>
-            <li>BAC Littéraire - Armentière, 2007</li>
-          </ul>
-        </div>
-
-      </article>
     </section>
 
+
+    <!-- PARTIE FORMULAIRE -->
     <div class="formulaire">
       <h2 class="animated infinite pulse delay-2s">Prenez contact</h2>
       <form action="traitement.php" method="POST">
@@ -217,6 +227,9 @@
       </form>
     </div>
 
+    <!-- FIN DU FORMULAIRE -->
+
+    <!-- FOOTER -->
     <footer>
       <div class="contact">
         <div class="mail">

@@ -1,0 +1,45 @@
+@import ../abstracts/colors
+@import ../abstracts/font
+
+footer
+    height: 170px
+    background-color: $marron-transparent
+    display: flex
+    justify-content: space-around
+    align-items: center
+    color: $black-red
+    border-top: 1px solid $marron
+    margin-top: 3%
+
+    // adaptation tablet and phone
+    @media (max-width: 900px)
+        flex-wrap: wrap
+        height: 360px
+        font-size: 1em
+
+    span
+        font-family: "caviar"
+        font-size: 1.2em
+        margin-left: 15px
+        letter-spacing: 0
+        font-weight: initial
+
+        // adaptation tablet and phone
+        @media (max-width: 900px)
+            font-size: 1em
+
+    a
+        font-family: "caviar"
+        text-decoration: none
+        color: rgba(0, 0, 0, 0.5)
+        font-size: 1.4em
+        margin-left: 15px
+
+    .mail, .tel, .name, .lkdn, .git, .codepen
+        display: flex
+        transition: all 0.5s ease
+
+    .mail:hover, .tel:hover, .name:hover, .lkdn:hover, .git:hover, .codepen:hover
+        // background-color: rgba(183, 21, 64, 0.2)
+        transform: scale(1.1)
+        opacity: 1

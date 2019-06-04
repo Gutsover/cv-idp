@@ -1,0 +1,45 @@
+@import ../abstracts/colors
+@import ../abstracts/font
+
+.box
+    width: 190px
+    height: 8px
+    border: 1px solid black
+    display: flex
+    justify-content: flex-start
+    align-items: center
+    border-radius: 10px 10px 10px 10px
+    overflow: hidden
+
+    .line
+        height: 9px
+        background-color: #b71540
+        transform-origin: top left
+        animation: grow 6s forwards
+    .html, .css
+        width: 95%
+        background-color: $green-one
+
+    .boots
+        width: 75%
+        background-color: $green-one
+
+    .js
+        width: 60%
+        background-color: $green-two
+
+    .react, .angu, .synfony, .ionic
+        background-color: $cream
+        width: 35%
+
+    .php, .sql
+        background-color: $green-two
+        width: 45%
+
+    // On fait l'animation de progressbar qui démarre à l'actualisation de la page
+    @keyframes grow
+        0%
+            transform: scaleX(0.01)
+
+        100%
+            transform: scaleX(1)

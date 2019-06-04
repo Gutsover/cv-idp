@@ -1,0 +1,20 @@
+@import ../abstracts/colors
+@import ../abstracts/font
+
+body
+    display: flex
+    justify-content: center
+    font-family: 'Lato', sans-serif
+    font-size: 1.3em
+    animation: color-change-4x 6s linear infinite alternate
+
+    // Animation pour changement de couleur infini (color x4)
+    @keyframes color-change-4x
+        0%
+            background: $green-one
+        33.3333%
+            background: $green-two
+        66.666%
+            background: $cream
+        100%
+            background: $marron
