@@ -27,13 +27,36 @@
     </header>
 <!-- FIN DU HEADER -->
 
-<!-- UNE SEULE SECTION CONTENANT 2 ARTICLES: column1 & column2 -->
+<!-- UNE SEULE SECTION CONTENANT 2 ARTICLES -->
     <section>
 
       <h3 data-aos="slide-left">profil</h3>
       <article class="parcours">
 
         <div class="profil">
+
+          <div class="cat-anim">
+            <svg version="1.1" id="cat" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="542.5px" height="260.5px" viewBox="0 0 542.5 501.5" enable-background="new 0 0 542.5 501.5" xml:space="preserve">
+                <path id="rightEarShadow" fill="#656565" stroke="#656565" stroke-width="10" stroke-miterlimit="10" d="M470.6,214.7c-1.1-2.1-8.3-4.3,2-9.7c10.3-5.4,34.2-11.8,35.3-9.7s-6.4,8.2-16.6,13.5C480.9,214.2,471.7,216.8,470.6,214.7z"/>
+                <path id="leftEarShadow" fill="#656565" stroke="#656565" stroke-width="10" stroke-miterlimit="10" d="M459.4,218.7c-1.6-1.8-13.2-1.8-4.4-9.5s34.5-20,36-18.2c1.6,1.8-4.2,9.4-13,17.1S461,220.5,459.4,218.7z"/>
+                <path id="tailShadow" fill="none" stroke="#656565" stroke-width="33" stroke-linecap="round" stroke-miterlimit="10" d="M95,239c0.8-75.8-38.8-122.2-32-153s37-18,37-18"/>
+                <path id="body" fill="#A3B5BE" stroke="#656565" stroke-width="5" stroke-miterlimit="10" d="M493.4,222.7c-11.4-15-4.2-18.4-37.4-19.8c-12.3-0.5-21.6-2.3-31.1,3c-9.5,5.4-20.7,13.3-28.4,15c-7.7,1.8-46.6,9.7-52.2,6.9c-5.6-2.7-54.7-36-87.4-44.7c-16.3-4.3-32-3.3-48.8-0.1c-16.7,3-23.4,1.8-44.6,3.8c-30.3,2.8-65.8,1.9-75.3,28.3c-7.7,21.6-11.6,36.3,4.8,72c10.7,23.5,21.3,32.3,23.5,59.6s0.5,35.2-1,45.2c-1.4,10.1,9.9,29.9,13.9,37.6s19.6,34,29.1,40.7c4,2.9,10.1,1,16.8,2.9c6.7,1.9,16.8-2.4,18.9-6.4c2.1-4,3.8-8.8-0.3-14.4c0,0,1.6-8.6-8.8-12.5c-10.6-3.8-16.5-5.9-18.7-10.5c-2.2-4.6-10.4-24.9-7.2-31.8c3.2-6.9,24.6-40.7,28.3-46.5c3.5-5.7,8-4,13.6-3.2c10.7,1.8,28.9,1,46,2.9c17.1,1.9,43.6,8.8,52.9,11.2c9.3,2.4,11.2,15,15.2,25.6c3.8,10.5,17.3,38,20.1,51.4c2.9,13.4,4.3,26.3,11.2,30.4c6.9,4,17.6,0.5,17.6,0.5s6.7,0.8,12.5,0.5c5.8-0.3,11.5-4.5,8.6-12.9c0,0,9.7,2.5,13.6,1c4.8-1.9,8-6.7,4.5-13.1c-2.7-5.1-9.3-8-13.9-8.3c-4.5-0.5-7.7-7.7-8.3-12.6c-0.8-5.1-0.8-31.5-2.4-40.2c-2.3-12.1,6.2-21.1,14.9-25.1c8.6-4,31.2-18.2,38.7-35.2c7.5-17.1,13.1-26.3,19.5-27.3c6.2-1,16.5,8.6,27.5,6.4c11-2.1,12-4.8,15.8-8.1c3.8-3.4,4.3-7.5,2.7-13.4c-1.6-5.9,0.3-18.7,1.6-23.5C500.9,253.4,504.2,236.9,493.4,222.7z"/>
+                <path id="tail1" fill="none" stroke="#A3B5BE" stroke-width="23" stroke-linecap="round" stroke-miterlimit="10" d="M95,239c0.8-75.8-38.8-122.2-32-153s37-18,37-18"/>
+                <path id="tail2" opacity="0" fill="none" stroke="#A3B5BE" stroke-width="23" stroke-linecap="round" stroke-miterlimit="10" d="M95,239c-7.1-57.8,43-66.8,56.9-113.8s-19.1-55-19.1-55"/>
+                <path id="tail3" opacity="0" fill="none" stroke="#A3B5BE" stroke-width="23" stroke-linecap="round" stroke-miterlimit="10" d="M95,239c4.8-80.8-60.2-117.8-66.2-146.8s17-34,17-34"/>
+                <path id="tail4" opacity="0" fill="none" stroke="#A3B5BE" stroke-width="23" stroke-linecap="round" stroke-miterlimit="10" d="M95,239c-19.2-60.8,70-86.8,81.4-126.8s-13.6-46.9-13.6-46.9"/>
+                <path id="rightEar" fill="#A3B5BE" d="M470.6,214.7c-1.1-2.1-8.3-4.3,2-9.7c10.3-5.4,34.2-11.8,35.3-9.7s-6.4,8.2-16.6,13.5C480.9,214.2,471.7,216.8,470.6,214.7z"/>
+                <path id="leftEar" fill="#A3B5BE" d="M459.4,218.7c-1.6-1.8-13.2-1.8-4.4-9.5s34.5-20,36-18.2c1.6,1.8-4.2,9.4-13,17.1S461,220.5,459.4,218.7z"/>
+                <g id="patches">
+                    <path id="backFoot" fill="#FFFFFF" stroke="#656565" stroke-width="3" stroke-miterlimit="10" d="M151.9,459c0,2.3,0.6,4.5,1.6,6.6c1.8,1.9,3.5,3.5,5,4.6c4,2.9,10.1,1,16.8,2.9c6.7,1.9,16.8-2.4,18.9-6.4c2.1-4,3.8-8.8-0.3-14.4c0,0,1.6-8.6-8.8-12.5c-3.3-1.2-6.2-2.2-8.6-3.2C161.9,441,151.9,449.4,151.9,459z"/>
+                    <path id="legLine" fill="none" stroke="#656565" stroke-width="5" stroke-linecap="round" stroke-miterlimit="10" d="M385.3,457.6c-3.4-13.1-21.4-18.1-24.4-34.1s1-21,0-36s16.1-32.6,16.1-32.6"/>
+                    <path id="frontFoot" fill="#FFFFFF" stroke="#656565" stroke-width="3" stroke-miterlimit="10" d="M346.6,469.5c6.9,4,17.6,0.5,17.6,0.5s6.7,0.8,12.5,0.5s11.5-4.5,8.6-12.9c-0.2-0.8-0.5-1.6-0.8-2.4l-4.2-6.4c0,0-8-7.7-24.4-6.3c-9.1,0.8-14.9,4.6-18.2,7.8C339.6,459.1,341.7,466.5,346.6,469.5z"/>
+                    <path id="belly" fill="#FFFFFF" stroke="#656565" stroke-width="3" stroke-miterlimit="10" d="M276.9,343.7c-16-3.8-17-5.2-51-7.2S187.6,351,187.6,351c3.5-5.7,8-4,13.6-3.2c10.7,1.8,28.9,1,46,2.9c17.1,1.9,43.6,8.8,52.9,11.2c2.9,0.7,5.1,2.5,6.9,4.9C306.8,366.6,292.8,347.5,276.9,343.7z"/>
+                    <path id="neck" fill="#FFFFFF" stroke="#656565" stroke-width="3" stroke-miterlimit="10" d="M407.9,322.5c-10.5,13.8-17.3,15.7-27,26c-14.3,15.1-7.6,26.4-2.4,31.7c0.1-10,7.6-17.4,15.3-20.9c8.6-4,31.2-18.2,38.7-35.2c5.3-12.1,9.7-20.2,14-24.3C439.8,299.8,423.2,302.4,407.9,322.5z"/>
+                </g>
+            </svg>
+          </div>
+
           <p>Autodidacte autant que je le peux, curieuse et passionnée, j'ai travaillé une dizaine d'année dans le commerce avant de sauter le pas
             de la reconvertion. J'ai à ce jour le désir de m'épanouïr dans une équipe studieuse, dynamique, complice et aussi
             désireuse que moi d'en apprendre toujours plus! <br>
@@ -276,5 +299,8 @@
   <script>
     AOS.init();
   </script>
+
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/TweenMax.min.1.14.1-release.js"></script>
+  <script src="javascript/cat.js" async defer></script>
 </body>
 </html>

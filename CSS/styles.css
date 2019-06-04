@@ -114,8 +114,9 @@ main {
   margin: auto;
 }
 .parcours .profil {
-  width: 50%;
-  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .parcours .xp {
   width: 100%;
