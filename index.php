@@ -43,7 +43,7 @@
 
         <div class="xp">
           <h4>expériences</h4>
-          <ul>
+          <ul class="liste-generale">
             <li>
               <span>Développeur &  Intégrateur Web à WEB FORCE 3 -  Lille :</span>
               <ul>
