@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
     crossorigin="anonymous">
   <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
   <main>
@@ -22,14 +23,14 @@
 
       <div class="littleLine"></div>
 
-      <h2 class="animated pulse fast">Développeuse Full-Stack</h2>
+      <h2>Développeuse Full-Stack</h2>
     </header>
 <!-- FIN DU HEADER -->
 
 <!-- UNE SEULE SECTION CONTENANT 2 ARTICLES: column1 & column2 -->
     <section>
 
-      <h3>profil</h3>
+      <h3 class="animated infinite pulse delay-2s" data-aos="slide-left">profil</h3>
       <article class="parcours">
 
         <div class="profil">
@@ -77,7 +78,7 @@
 
       </article>
 
-      <h3>compétences</h3>
+      <h3 class="animated infinite pulse delay-2s" data-aos="slide-left">compétences</h3>
       <article class="competences">
 
         <div class="skills">
@@ -196,7 +197,7 @@
 
     <!-- PARTIE FORMULAIRE -->
     <div class="formulaire">
-      <h2 class="animated infinite pulse delay-2s">Prenez contact</h2>
+      <h2 class="animated infinite pulse delay-2s" data-aos="slide-bottom">Prenez contact</h2>
       <form action="traitement.php" method="POST">
         <label for="surname">Votre prénom</label><br>
         <span class="input_bg">
@@ -270,5 +271,10 @@
   </main>
 
   <script src="javascript/h1.js" async defer></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
