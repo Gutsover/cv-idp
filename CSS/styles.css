@@ -134,17 +134,27 @@ main {
   }
 }
 .parcours .xp {
-  width: 100%;
+  width: 60%;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
 }
+@media (max-width: 900px) {
+  .parcours .xp {
+    width: 100%;
+  }
+}
 .parcours .school {
-  width: 100%;
+  width: 60%;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   flex-direction: column;
+}
+@media (max-width: 900px) {
+  .parcours .school {
+    width: 100%;
+  }
 }
 
 @font-face {
@@ -192,7 +202,7 @@ main {
   }
 }
 .formulaire form label {
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-family: "caviar";
 }
 .formulaire form .input_bg {
@@ -206,6 +216,8 @@ main {
 @media (max-width: 620px) {
   .formulaire form .input_bg {
     width: 300px;
+    background-size: 95%;
+    margin: auto;
   }
 }
 .formulaire form .input_bg input {
@@ -219,6 +231,7 @@ main {
 @media (max-width: 620px) {
   .formulaire form .input_bg input {
     width: 300px;
+    margin: 0 0 15px;
   }
 }
 .formulaire form .textarea_bg {
@@ -237,6 +250,8 @@ main {
 @media (max-width: 620px) {
   .formulaire form .textarea_bg {
     width: 300px;
+    background-size: 95%;
+    margin: auto;
   }
 }
 .formulaire form .textarea_bg textarea {
@@ -250,7 +265,8 @@ main {
 }
 @media (max-width: 620px) {
   .formulaire form .textarea_bg textarea {
-    width: 300px;
+    width: 270px;
+    height: 110px;
   }
 }
 .formulaire form .button_bg {
