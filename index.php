@@ -30,7 +30,7 @@
 <!-- UNE SEULE SECTION CONTENANT 2 ARTICLES: column1 & column2 -->
     <section>
 
-      <h3 class="animated infinite pulse delay-2s" data-aos="slide-left">profil</h3>
+      <h3 data-aos="slide-left">profil</h3>
       <article class="parcours">
 
         <div class="profil">
@@ -78,7 +78,7 @@
 
       </article>
 
-      <h3 class="animated infinite pulse delay-2s" data-aos="slide-left">compétences</h3>
+      <h3 data-aos="slide-left">compétences</h3>
       <article class="competences">
 
         <div class="skills">
@@ -197,7 +197,7 @@
 
     <!-- PARTIE FORMULAIRE -->
     <div class="formulaire">
-      <h2 class="animated infinite pulse delay-2s" data-aos="slide-bottom">Prenez contact</h2>
+      <h2 class="animated infinite pulse delay-2s">Prenez contact</h2>
       <form action="traitement.php" method="POST">
         <label for="surname">Votre prénom</label><br>
         <span class="input_bg">
