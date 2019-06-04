@@ -118,6 +118,11 @@ main {
   align-items: center;
   justify-content: space-around;
 }
+@media (max-width: 900px) {
+  .parcours .profil #cat-anim {
+    display: none;
+  }
+}
 .parcours .xp {
   width: 100%;
   display: flex;
@@ -125,6 +130,7 @@ main {
   justify-content: flex-end;
 }
 .parcours .school {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;

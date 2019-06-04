@@ -35,7 +35,7 @@
 
         <div class="profil">
 
-          <div class="cat-anim">
+          <div id="cat-anim">
             <svg version="1.1" id="cat" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="542.5px" height="260.5px" viewBox="0 0 542.5 501.5" enable-background="new 0 0 542.5 501.5" xml:space="preserve">
                 <path id="rightEarShadow" fill="#656565" stroke="#656565" stroke-width="10" stroke-miterlimit="10" d="M470.6,214.7c-1.1-2.1-8.3-4.3,2-9.7c10.3-5.4,34.2-11.8,35.3-9.7s-6.4,8.2-16.6,13.5C480.9,214.2,471.7,216.8,470.6,214.7z"/>
                 <path id="leftEarShadow" fill="#656565" stroke="#656565" stroke-width="10" stroke-miterlimit="10" d="M459.4,218.7c-1.6-1.8-13.2-1.8-4.4-9.5s34.5-20,36-18.2c1.6,1.8-4.2,9.4-13,17.1S461,220.5,459.4,218.7z"/>

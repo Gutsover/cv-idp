@@ -10,6 +10,13 @@
         align-items: center
         justify-content: space-around
 
+        // responsive
+        @media (max-width: 900px)
+            //On enlève le chat animé sur tablett et phone
+            #cat-anim
+                display: none
+
+
     .xp
         width: 100%
         display: flex
@@ -17,6 +24,7 @@
         justify-content: flex-end
 
     .school
+        width: 100%
         display: flex
         flex-wrap: wrap
         justify-content: flex-start
