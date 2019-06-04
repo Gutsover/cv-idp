@@ -42,7 +42,7 @@
         </div>
 
         <div class="xp">
-          <h4>expériences</h4>
+          <h4 data-aos="slide-right">expériences</h4>
           <ul class="liste-generale">
             <li>
               <span>Développeur &  Intégrateur Web à WEB FORCE 3 -  Lille :</span>
@@ -66,7 +66,7 @@
         </div>
 
         <div class="school">
-          <h4>formations</h4>
+          <h4 data-aos="slide-left">formations</h4>
           <ul>
             <li>Formation Développeur Fullstack à Afpa puis Aston - Lille, mai 2019 à septembre 2019</li>
             <li>Formation Développeur &  Intégrateur Web à WEB FORCE 3 - Lille, 2018</li>
