@@ -267,6 +267,7 @@ main {
   margin: 5px 0 0;
   padding: 9px 5px;
   outline: 0;
+  resize: none;
 }
 @media (max-width: 620px) {
   .formulaire form .textarea_bg textarea {
