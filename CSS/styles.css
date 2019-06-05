@@ -162,7 +162,8 @@ main {
   src: url(../font/CaviarDreams.ttf);
 }
 .competences {
-  width: 90%;
+  background: transparent;
+  width: 100%;
   margin: auto;
   display: flex;
   justify-content: space-around;
@@ -353,6 +354,7 @@ h3 {
   color: #A57B48;
   text-align: center;
   padding: 3%;
+  background-color: rgba(191, 179, 122, 0.2);
 }
 @media (max-width: 900px) {
   h3 {

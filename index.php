@@ -30,7 +30,7 @@
 <!-- UNE SEULE SECTION CONTENANT 2 ARTICLES -->
     <section>
 
-      <h3 data-aos="slide-left">profil</h3>
+      <h3 data-aos="slide-left" id="title-profil">profil</h3>
       <article class="parcours">
 
         <div class="profil">
@@ -101,7 +101,7 @@
 
       </article>
 
-      <h3 data-aos="slide-left">compétences</h3>
+      <h3 data-aos="slide-left" id="title-competences">compétences</h3>
       <article class="competences">
 
         <div class="skills">
