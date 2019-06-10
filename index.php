@@ -106,7 +106,7 @@
 
         <div class="skills">
 
-          <h4>front-end & back-end</h4>
+          <h4 data-aos="slide-right">front-end & back-end</h4>
           <ul>
             <li>
               <strong>HTML<br>
@@ -197,7 +197,7 @@
         </div>
 
         <div class="divers">
-          <h4>divers</h4>
+          <h4 data-aos="slide-right">divers</h4>
           <ul>
             <li>GIT</li>
             <li>Gulp</li>
