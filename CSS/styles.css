@@ -280,10 +280,10 @@ main {
   background-repeat: no-repeat;
   border: 0;
   margin: auto;
-  transition: all 0.3s;
+  transition: all 0.7s ease;
 }
 .formulaire form .button_bg:hover {
-  transform: scale(1.1);
+  transform: rotate(360deg);
 }
 .formulaire form #valider {
   font-family: "caviar";
@@ -294,6 +294,9 @@ main {
   background: transparent;
   outline: 0;
   color: whitesmoke;
+}
+.formulaire form:active {
+  transforme: scale(0.5);
 }
 
 @font-face {
