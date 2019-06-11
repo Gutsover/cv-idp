@@ -172,7 +172,7 @@
                     </div>
                   </li>
                   <li>
-                    <strong>Synfony</strong> : base uniquement
+                    <strong>Symfony</strong> : base uniquement
                     <div class="box">
                       <div class="line synfony"></div>
                     </div>
