@@ -64,39 +64,41 @@
           </p>
         </div>
 
-        <div class="xp">
-          <h4 data-aos="slide-right">expériences</h4>
-          <ul class="liste-generale">
-            <li>
-              <span>Développeur &  Intégrateur Web à WEB FORCE 3 -  Lille :</span>
-              <ul>
-                <li> Réalisation d’une application  présentant le rapport  d’activité 2018 de notre  commanditaire
-                  <strong>​(Pôle Santé Travail)</strong>
-                  ​ grâce à React / Next et Firebase, le but étant de condenser un fichier PDF d’une centaine de pages et de rendre attractif
-                  l'affichage de nombreuses données non-structurées sous forme de composants. Langages vus pendant cette formation: PHP, SQL, Synfony </li>
-              </ul>
-            </li>
+        <div class="xp_school">
+          <div class="xp">
+            <h4 data-aos="slide-right">expériences</h4>
+            <ul class="liste-generale">
+              <li>
+                <span>Développeur &  Intégrateur Web à WEB FORCE 3 -  Lille :</span>
+                <ul>
+                  <li> Réalisation d’une application  présentant le rapport  d’activité 2018 de notre  commanditaire
+                    <strong>​(Pôle Santé Travail)</strong>
+                    ​ grâce à React / Next et Firebase, le but étant de condenser un fichier PDF d’une centaine de pages et de rendre attractif
+                    l'affichage de nombreuses données non-structurées sous forme de composants. Langages vus pendant cette formation: PHP, SQL, Synfony </li>
+                </ul>
+              </li>
 
-            <li>
-              <span>Auparavant :</span>
-              <ul>
-                <li>Assistante Direction Commerciale chez Mars Drinks - Paris, 2016  </li>
-                <li>Assistante commerciale chez Leads Machine - Lille, 2013 à 2016</li>
-                <li>Responsable restauration à AS Hotel - Lille, 2012</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
+              <li>
+                <span>Auparavant :</span>
+                <ul>
+                  <li>Assistante Direction Commerciale chez Mars Drinks - Paris, 2016  </li>
+                  <li>Assistante commerciale chez Leads Machine - Lille, 2013 à 2016</li>
+                  <li>Responsable restauration à AS Hotel - Lille, 2012</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
 
-        <div class="school">
-          <h4 data-aos="slide-left">formations</h4>
-          <ul>
-            <li>Formation Développeur Fullstack à Afpa puis Aston - Lille, mai 2019 à septembre 2019</li>
-            <li>Formation Développeur &  Intégrateur Web à WEB FORCE 3 - Lille, 2018</li>
-            <li>B-Tech, Euratechnologies - Lille, 2017</li>
-            <li>BTS Management des Unités Commerciales - Lille, 2010</li>
-            <li>BAC Littéraire - Armentière, 2007</li>
-          </ul>
+          <div class="school">
+            <h4 data-aos="slide-left">formations</h4>
+            <ul>
+              <li>Formation Développeur Fullstack à Afpa puis Aston - Lille, mai 2019 à septembre 2019</li>
+              <li>Formation Développeur &  Intégrateur Web à WEB FORCE 3 - Lille, 2018</li>
+              <li>B-Tech, Euratechnologies - Lille, 2017</li>
+              <li>BTS Management des Unités Commerciales - Lille, 2010</li>
+              <li>BAC Littéraire - Armentière, 2007</li>
+            </ul>
+          </div>
         </div>
 
       </article>
@@ -211,9 +213,7 @@
         </div>
 
       </article>
-      <!-- FIN ARTICLE 1 -->
-
-      <!-- DEBUT ARTICLE 2 -->
+      <!-- FIN ARTICLE 2 -->
 
     </section>
 

@@ -3,14 +3,26 @@
 
 
 .competences
+    margin: auto
     background: transparent
     width: 90%
-    margin: auto
     display: flex
-    justify-content: space-around
+    flex-direction: row
+    justify-content: center
     flex-wrap: wrap
 
     ul
         line-height: 32px
 
+    .skills
+        width: 60%
+        //Responsive
+        @media (max-width: 900px)
+            width: 100%
+
+    .divers
+        width: 40%
+        //Responsive
+        @media (max-width: 900px)
+            width: 100%
 

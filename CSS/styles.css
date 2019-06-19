@@ -125,7 +125,7 @@ main {
   src: url(../font/CaviarDreams.ttf);
 }
 .parcours {
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 .parcours .profil {
@@ -138,26 +138,23 @@ main {
     display: none;
   }
 }
-.parcours .xp {
-  width: 60%;
+.parcours .xp_school {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+}
+.parcours .xp_school .xp {
+  width: 60%;
 }
 @media (max-width: 900px) {
-  .parcours .xp {
+  .parcours .xp_school .xp {
     width: 100%;
   }
 }
-.parcours .school {
-  width: 60%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  flex-direction: column;
+.parcours .xp_school .school {
+  width: 40%;
 }
 @media (max-width: 900px) {
-  .parcours .school {
+  .parcours .xp_school .school {
     width: 100%;
   }
 }
@@ -167,15 +164,32 @@ main {
   src: url(../font/CaviarDreams.ttf);
 }
 .competences {
+  margin: auto;
   background: transparent;
   width: 90%;
-  margin: auto;
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .competences ul {
   line-height: 32px;
+}
+.competences .skills {
+  width: 60%;
+}
+@media (max-width: 900px) {
+  .competences .skills {
+    width: 100%;
+  }
+}
+.competences .divers {
+  width: 40%;
+}
+@media (max-width: 900px) {
+  .competences .divers {
+    width: 100%;
+  }
 }
 
 @font-face {

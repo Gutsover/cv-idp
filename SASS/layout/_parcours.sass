@@ -2,7 +2,7 @@
 @import ../abstracts/font
 
 .parcours
-    width: 80%
+    width: 90%
     margin: auto
 
     .profil
@@ -17,23 +17,19 @@
                 display: none
 
 
-    .xp
-        width: 60%
+    .xp_school
         display: flex
         flex-wrap: wrap
-        justify-content: flex-end
+        .xp
+            width: 60%
 
-        @media (max-width: 900px)
-            width: 100%
+            @media (max-width: 900px)
+                width: 100%
 
-    .school
-        width: 60%
-        display: flex
-        flex-wrap: wrap
-        justify-content: flex-start
-        flex-direction: column
+        .school
+            width: 40%
 
-        @media (max-width: 900px)
-            width: 100%
+            @media (max-width: 900px)
+                width: 100%
 
 
